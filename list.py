@@ -136,3 +136,8 @@ list5 = sorted(list0)
 print(list5, id(list5))
 list6 = sorted(list0, reverse=True)
 print(list6, id(list6))
+
+# list的遍历
+print(list0)
+for i in list0:
+    print(i)
